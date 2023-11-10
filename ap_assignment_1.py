@@ -80,7 +80,7 @@ def yale_admission_graph(yale_admission):
 
 def top_revenue():
     """
-    Create a new function top10_revenue.
+    Create a new function top_revenue.
     for reading a different csv file which contains data.
     of top 1000 companies in america.This function will also create
     a sub dataframe top_company which later will be used for plotting bargraph.
@@ -138,7 +138,7 @@ def top10_revenue_bargraph(top10_revenue):
 
 def top10_revenue_change():
     """
-    Create a new function top10_profit for reading a csv file.
+    Create a new function top10_revenue_change for reading a csv file.
     It contains data of top 1000 companies in america.
     This function will also create a sub dataframe top_company_revenue \
     which later will be used for plotting piechart
@@ -165,8 +165,8 @@ def top10_revenue_change():
 
 def top10_revenue_change_plot(topk_company_revenue):
     """
-    Create another function to plot the pie chart named as top10_profit_change.
-    which will display profit percentage change of top 10 companies in \
+    Create another function to plot the pie chart named as top10_revenue_change_plot.
+    which will display revenue percentage change of top 10 companies in \
     million USD for year 2023.
 
     Parameters
