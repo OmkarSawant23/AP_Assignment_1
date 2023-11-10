@@ -158,7 +158,6 @@ def top10_revenue_change():
 
     top_all_company_revenue = company_1.loc[:6, [
         'Company', 'RevenuePercentChange']]
-    print(top_all_company_revenue)
 
     return top_all_company_revenue
 
